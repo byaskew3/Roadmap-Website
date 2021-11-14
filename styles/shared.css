@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    color: rgb(206, 30, 68);
+}
+
+img {
+    width: 300px;
+    border-radius: 150px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: rgb(110, 110, 110);
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(226, 174, 174);
+}
