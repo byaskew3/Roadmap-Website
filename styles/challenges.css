@@ -1,40 +1,51 @@
 h1 {
-    font-size: 48px;
+  font-size: 48px;
+  margin: 0;
+}
+
+header p {
+    margin: 0;
+}
+
+header h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 ol {
-    list-style: none;
-    width: 500px;
-    margin: 36px auto;
-    padding: 0;
+  list-style: none;
+  width: 500px;
+  margin: 36px auto;
+  padding: 0;
 }
 
 li {
-    padding: 16px;
-    margin: 15px;
-    background-color: rgb(255, 186, 186);
-    border-radius: 6px;
+  padding: 16px;
+  margin: 15px;
+  background-color: rgb(255, 186, 186);
+  border-radius: 6px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 li h2 {
-    color: rgb(182, 28, 28);
-    font-family: 'Oswald', sans-serif;
+  color: rgb(182, 28, 28);
+  font-family: "Oswald", sans-serif;
 }
 
 li p {
-   margin: 12px;
-   color: rgb(71, 29, 22); 
+  margin: 12px;
+  color: rgb(71, 29, 22);
 }
 
 a {
-    color: white;
-    background-color: rgb(182, 28, 28);
-    border-radius: 10px;
-    font-size: 24px;
-    padding: 12px 48px;
-    border: 1px solid rgb(241, 241, 241);
+  color: white;
+  background-color: rgb(182, 28, 28);
+  border-radius: 10px;
+  font-size: 24px;
+  padding: 12px 48px;
+  border: 1px solid rgb(241, 241, 241);
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
